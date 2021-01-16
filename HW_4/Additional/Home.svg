@@ -1,0 +1,13 @@
+<svg width="20" height="20"">
+  <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="22" width="22" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#000" id="svg_21" d="m18.938,9.7264l-2.31685,-2.343l0,-5.59582l-1.9862,0l0,3.5872l-4.63446,-4.68677l-8.9375,9.0384l2.12769,-0.05127l0,9.13787l13.52504,0l0,-9.0866l2.22227,0zm-8.9375,7.77966l-4.41351,0l0,-5.35631l4.41351,0l0,5.35631zm4.28791,-2.29556l-2.90022,0l0,-3.09289l2.90022,0l0,3.09289z" fill-opacity="null" stroke-opacity="null" stroke-width="NaN" fill="#0f23ff"/>
+ </g>
+</svg>
