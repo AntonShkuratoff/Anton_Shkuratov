@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW_04-1</title>
+    <style>
+        .external_reference_1 {
+            background: url('pic/extref.png') no-repeat;
+            background-position: left bottom;
+            text-align: right;
+            width: 75px;
+            display: inline-block;
+        }
+        .external_reference_2 {
+            background: url('pic/extref.png') no-repeat;
+            background-position: left bottom;
+            text-align: right;
+            width: 40px;
+            display: inline-block;
+        }
+        .external_reference_3 {
+            background: url('pic/extref.png') no-repeat;
+            background-position: left bottom;
+            text-align: right;
+            width: 35px;
+            display: inline-block;
+        }
+        .MSW_regular {
+            background: url('pic/logo-doc.jpg') no-repeat;
+            background-position: right bottom;
+            width: 150px;
+            display: block;            
+        }
+        .MSW_hover:hover {
+            background: url('pic/logo-doc.jpg') no-repeat;
+            background-position: right bottom;
+            width: 150px;
+            display: inline-block;            
+        }
+        .PDF_regular {
+            background: url('pic/logo-pdf.png') no-repeat;
+            background-position: right bottom;
+            width: 120px;
+            display: block;            
+        }
+        .PDF_hover:hover {
+            background: url('pic/logo-pdf.png') no-repeat;
+            background-position: right bottom;
+            width: 120px;
+            display: inline-block;            
+        }
+        .ZIP_regular {
+            background: url('pic/logo-zip.gif') no-repeat;
+            background-position: right bottom;
+            width: 60px;
+            display: block;            
+        }
+        .ZIP_hover:hover {
+            background: url('pic/logo-zip.gif') no-repeat;
+            background-position: right bottom;
+            width: 60px;
+            display: inline-block;            
+        }
+        ul {
+            list-style-image: url('pic/logo-list.jpg');
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Форматы файлов.</h2>
+    <p>.DOC или .doc (от англ. <a href="https://ru.wikipedia.org/wiki/Doc" target="_blank" class="external_reference_1">document</a>)
+         — расширение имени файла, используемое для файлов, представляющих текст, с разметкой или без.Расширение .DOC часто использовалось для обозначения 
+        простых текстовых файлов без форматирования, однако позже стало использоваться для двоичных форматов с разметкой.<br>
+    <a href="files/document.doc" class="MSW_regular">Документ MS Word</a> 
+    </p>
+
+
+    <p>Portable Document Format (<a href="https://ru.wikipedia.org/wiki/pdf" target="_blank" class="external_reference_2">PDF</a>) — межплатформенный формат 
+        электронных документов, разработанный фирмой Adobe Systems с использованием ряда возможностей языка PostScript.
+    <br>
+    <a href="files/document.pdf" class="PDF_regular">Документ PDF</a>
+    </p>
+
+    <p>ZIP — популярный формат сжатия данных и архивации файлов. Файл в этом формате обычно имеет расширение 
+        <a href="https://ru.wikipedia.org/wiki/zip" target="_blank" class="external_reference_3">.zip</a> и хранит в сжатом или несжатом виде один или несколько 
+        файлов, которые можно из него извлечь путём распаковки с помощью специальной программы.
+    <br>
+    <a href="files/document.zip" class="ZIP_regular">Архив</a>
+    </p>
+    <h3>Это список из файлов</h3>
+    <ul>
+        <li><a href="files/document.doc" class="MSW_hover">Документ MS Word</a></li>
+        <li><a href="files/document.pdf" class="PDF_hover">Документ PDF</a></li>
+        <li><a href="files/document.zip" class="ZIP_hover">Архив</a></li>
+    </ul> 
+</body>
+</html>
